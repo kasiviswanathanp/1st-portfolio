@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+
+      <section>
+      <label for="name">Enter Your Name:</label>
+      <input type="text" id="name" class="input-box" placeholder="mangai" required>
+      </section>
+
+      <section>
+      <label for="email">Enter Your Email:</label>
+      <input type="email" id="email" class="input-box" placeholder="emial@gmail.com" required>
+      </section>
+      
+      <section>
+        <label for="select">Select Job Roll:</label>
+      <select id="position" class="input-box">
+        <option value="ai">Artificial Intelligent</option>
+        <option value="web-designer">Web Designer</option>
+        <option value="graphic-designer">Graphic Designer</option>
+        <option value="photo-editor">Photo Editor</option>
+      </select>
+      </section>
+
+      <section>
+        <fieldset class="radio-group">
+        <legend>Job Type</legend>
+        <input type="radio" name="availability" id="asso-full" class="round">
+        <label  for="asso-full">Full Time Work</label>
+        <input type="radio" name="availability" id="asso-part" class="round">
+        <label for="asso-part">Part Time Work</label>
+        <input type="radio" name="availability" id="asso-intern" class="round">
+        <label for="asso-intern" >Internship</label>     
+      </fieldset>
+      </section>
+
+      <section>
+      <textarea name="message" id="message" placeholder="message here" required></textarea>
+      </section>
+
+      <section id="submit">
+      <button type="submit">Submit</button>
+      </section>
+
+      </form>
+    </div>
+</body>
+</html>
